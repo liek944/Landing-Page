@@ -68,3 +68,98 @@ header {
     max-width: 400px;
     height: auto;
   }
+  /* Information Section */
+.info {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .info h2 {
+    font-size: 36px;
+    color: #1F2937;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    max-width: 150px;
+  }
+  
+  .card .box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #1F2937;
+  }
+  /* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+  }
+  
+  .quote footer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    padding: 50px;
+  }
+  
+  .cta-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cta-text h3 {
+    margin: 0;
+  }
+  
+  .cta-text p {
+    margin: 0;
+  }
+  
+  .cta-box button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
