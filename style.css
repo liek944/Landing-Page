@@ -15,3 +15,56 @@ header {
     background-color: #1F2937;
     color: #F9FAF8;
   }
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  /* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  
+  .hero-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
